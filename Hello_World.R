@@ -1,1 +1,1 @@
-print("Hello from R")
+cat("Hello from R cat")
