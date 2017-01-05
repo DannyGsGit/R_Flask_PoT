@@ -14,7 +14,7 @@ import subprocess
 
 # Define the arguments
 filetype = 'Rscript'
-R_script_path = './Hello_World.R'
+R_script_path = './R_Code/Hello_World.R'
 
 # Build the command
 command = [filetype, R_script_path]
@@ -31,7 +31,7 @@ x = subprocess.check_output(command, universal_newlines = True)
 
 # Define the arguments
 filetype = 'Rscript'
-R_script_path = './Simple_Add.R'
+R_script_path = './R_Code/Simple_Add.R'
 args = ['1', '1', '40']  # These are the args we want to pass into R
 
 # Build the command
