@@ -1,0 +1,8 @@
+Flask
+ipykernel
+jupyter-client
+matplotlib
+numpy
+pandas
+scipy
+requests
